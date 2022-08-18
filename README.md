@@ -1,1 +1,1 @@
-# Java-Spring-Boot-Navin
+# Enterprise-Java-with-Spring-Boot
