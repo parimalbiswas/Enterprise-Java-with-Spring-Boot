@@ -4,14 +4,15 @@ class Ali
 	private String name;
 //	windows shift I -> Setter getter shortCart
 
+	public Ali(int age, String name) // no return type and same class name -> its an constractor
+	{
+		this.age = age;
+		this.name = name;
+	}
+
 	public int getAge()
 	{
 		return age;
-	}
-
-	public void setAge(int age)
-	{
-		this.age = age;
 	}
 
 	public String getName()
@@ -19,10 +20,6 @@ class Ali
 		return name;
 	}
 
-	public void setName(String name)
-	{
-		this.name = name;
-	}
 }
 
 public class LaunchEncap4This
@@ -30,8 +27,9 @@ public class LaunchEncap4This
 
 	public static void main(String[] args)
 	{
-		// TODO Auto-generated method stub
-
+		Ali aligen = new Ali(10, "GHGD"); // Aligen() mean Constractor
+		System.out.println(aligen.getAge());
+		System.out.println(aligen.getName());
 	}
 
 }
