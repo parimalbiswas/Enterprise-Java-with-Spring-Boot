@@ -33,3 +33,5 @@ public class LaunchEncap4This
 	}
 
 }
+
+//Ali a1 = new Ali() --> Ali() mean call defalult constractor already present in Ali Class(JVM made in class by defalt if manually not make any constractor in any perticular class)

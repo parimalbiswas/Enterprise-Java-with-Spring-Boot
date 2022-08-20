@@ -6,10 +6,12 @@ class Alien3
 
 	public Alien3(int age, String name) // no return type and same class name -> its an constractor
 	{
-//		either super or this Method will  be (ego issue)
-		this(); // call constrator of the same class (parametrer basis) --> calling from one to
-				// another called
-				// constractor chainning
+//		either super or this Method will  be present any class(ego issue)
+		this(); // call constrator of the same class (parametrer basis) --> calling from one
+				// same name constactor to
+				// another same name constractor.
+
+		// constractor chainning
 
 		this.age = age;
 		this.name = name;
@@ -43,7 +45,8 @@ public class LaunchEnc5
 		System.out.println(a1.getName());
 
 		Alien3 a2 = new Alien3(); // JVM will inclulde zero parametrer by defalt contrasctor if programmer will
-		// notdefine perameter constor
+		// not define any constractor (If programmer define any constractor in class JVM
+		// will not create by default)
 		System.out.println(a2.getAge());
 		System.out.println(a2.getName());
 	}

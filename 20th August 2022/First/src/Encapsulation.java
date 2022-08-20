@@ -2,7 +2,7 @@
 
 class Books
 {
-	private int pageNumber;
+	private int pageNumber; // Encapsulating from unwanted Access
 
 	public void setPageNum(int x) // Setter
 	{
