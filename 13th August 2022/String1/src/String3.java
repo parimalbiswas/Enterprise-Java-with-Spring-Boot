@@ -12,6 +12,8 @@ public class String3
 		System.out.println(s1 == s3);
 		System.out.println(s1.equals(s2));
 		System.out.println(s1.equalsIgnoreCase(s2));
+		System.out.println(s1.compareTo(s2)); // compareTo return integer value. if both char are equal it return 0.
+		// Its match with ASCII value
 
 	}
 
