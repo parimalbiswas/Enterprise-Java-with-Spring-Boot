@@ -17,8 +17,8 @@ public class Launch7
 		String s4 = 10 + 14 + "Jio"; // 24Jio
 		System.out.println(s4);
 
-		String s5 = 10 + 14 + 2; // Error Mandatory when trying to concat .otherwise it will give error
-		System.out.println(s5);
+//		String s5 = 10 + 14 + 2; // Error Mandatory when trying to concat .otherwise it will give error
+//		System.out.println(s5);  // OPEN COMMENTED PART AND CHECK---------------------------------------
 
 	}
 
