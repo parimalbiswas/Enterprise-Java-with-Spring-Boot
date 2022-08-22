@@ -16,12 +16,10 @@ public class String4
 		String s5 = s1 + "Khoka"; // At least one above reference variable on the right side. so object will be
 									// create in Heap Area not in SCP area
 
-		System.out.println(s1 == s2);
-		System.out.println(s1 == s3);
-		System.out.println(s1.equals(s2));
-		System.out.println(s1.equalsIgnoreCase(s2));
-		System.out.println(s1.compareTo(s2)); // compareTo return integer value. if both char are equal it return 0.
-		// Its match with ASCII value
+		System.out.println(s3 == s4); // False || because One is in SCP and another is heap area
+
+		// .concat() method is little slower than + operator. || method will go to
+		// runtime zone-> calling--> execution context --> execute body
 
 	}
 
