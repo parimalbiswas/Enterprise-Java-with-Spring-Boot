@@ -20,8 +20,8 @@ public class Prog4
 
 		StringBuffer sb111 = new StringBuffer("abcdef"); // 19 capacity ( length of string + 16 )
 		System.out.println(sb111.capacity());
-		
-		2:06 min
+
+//		2:06 minute
 
 	}
 
