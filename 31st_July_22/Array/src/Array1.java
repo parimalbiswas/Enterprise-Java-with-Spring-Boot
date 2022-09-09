@@ -7,7 +7,12 @@
 
 //Array is two type 
 //1. Regular Array
-//2. Jacked Array
+//2. Jacked Array  --> Second array size is not fixed -->
+//Jacked array example
+//int [][] arr = new int[3][];
+//		arr[0]=new int[3];
+//		arr[1]=new int[2];
+//		arr[2]=new int[5];
 
 
 
