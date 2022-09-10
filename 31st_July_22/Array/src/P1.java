@@ -10,8 +10,8 @@ public class P1 {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		//.length mean property of array not method.
-		// If It was a method () parenthesis should be there. 
+//		length mean property of array not method.
+//		If It was a method () parenthesis should be there. 
 		
 		for (int i = 0; i < a.length; i++) {
 			System.out.println("Please enter the marks"+i);
