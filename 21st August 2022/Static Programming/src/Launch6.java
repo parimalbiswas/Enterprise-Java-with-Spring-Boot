@@ -2,7 +2,7 @@
 public class Launch6 {
 	static int b;
 	static {
-		System.out.println(a); // Error
+//		System.out.println(a); // Error
 		System.out.println(b);
 	}
 	static int a; // HAve to write before

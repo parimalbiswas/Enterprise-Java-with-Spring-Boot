@@ -17,7 +17,7 @@ public class _6Lamda2
 
 	public static void main(String[] args)
 	{
-		// In lamda case dont create $1 file by JVM
+		// In lambda case don't create $1 file by JVM
 		Computer1 c111 = (int num) -> System.out.println("In Show " + num);
 		c111.show(116);
 

@@ -10,7 +10,7 @@ public class AnnonimusInnnerClass2
 
 	public static void main(String[] args)
 	{
-		// We can create Functional and nonfuynction innerclass also.
+
 		ComputeLengthOfString c1 = new ComputeLengthOfString()
 		{
 
