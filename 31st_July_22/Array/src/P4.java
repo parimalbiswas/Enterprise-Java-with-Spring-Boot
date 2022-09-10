@@ -1,5 +1,5 @@
 
-//If u dont initialize value in interzar type array. By default JVM will Allocate zero in it.
+//If u don't initialize value in interzar type array. By default JVM will Allocate zero in it.
 //and for String array default value is null;
 
 public class P4 {
