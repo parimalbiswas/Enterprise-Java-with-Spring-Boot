@@ -1,3 +1,4 @@
+package src;
 
 //Marker(empty), Functional(One method), Normal 
 //--> 3 type of Interface
