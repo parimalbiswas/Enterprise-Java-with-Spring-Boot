@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Demo"/>
+    <fullyQualifiedTypeName name="Alpha"/>
+    <fullyQualifiedTypeName name="AlphaIF"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="ComputeLengthOfString"/>
+    <fullyQualifiedTypeName name="java.lang.WeakPairMap.Pair.Weak"/>
+    <fullyQualifiedTypeName name="Laptop"/>
+    <fullyQualifiedTypeName name="Computer"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="Computer1"/>
+</qualifiedTypeNameHistroy>

@@ -1,3 +1,5 @@
+package src;
+
 class Computer
 {
 	public void config()
