@@ -1,10 +1,10 @@
 
 public class Launch2 {
 
-	static int a, b, c;
+	static int a, b, c; // Static variable load only once when class load one time.
 //	 If u want to get something get executed even before the main method that code
 //	 u can write in static block
-//If something U want to get executed when the class is getting loaded
+//   If something U want to get executed when the class is getting loaded
 //	Initially we make static block to initialize value to static variables
 	static { // It will execute first even before the main method also.
 		System.out.println("Static bloack");
@@ -21,7 +21,8 @@ public class Launch2 {
 
 	}
 
-	int m, n, o;
+	int m, n, o; // Non Static variable load every time when object created in main method every
+					// time
 
 	{
 		// JAVA Block || Initialization Block // Instance Initialization Block ||
