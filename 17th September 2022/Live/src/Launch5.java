@@ -1,0 +1,12 @@
+//partiaclaly - bi=oth checked and unchaked exception present.\
+
+public class Launch5
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}
