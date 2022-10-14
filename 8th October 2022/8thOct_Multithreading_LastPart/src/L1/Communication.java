@@ -2,7 +2,7 @@ package L1;
 
 class Producer extends Thread
 {
-	//Producer Producing the data in Stringbuffer
+	//Producer Producing the data in String buffer
 	StringBuffer sB;
 	
 	//variable 
@@ -63,10 +63,18 @@ public class Communication {
 	{
 		Producer obj1 = new Producer();
 		Consumer obj2 = new Consumer(obj1);
+		
+		
+		
+		Thread t1 = new Thread(obj1); //producer thread
+		Thread t2 = new Thread(obj2); //consumer thread
+		
+		t1.start();  // producer start
+		t2.start(); // Consumer wait
 
 	}
 
 }
 
 
-1:47
+2:00
