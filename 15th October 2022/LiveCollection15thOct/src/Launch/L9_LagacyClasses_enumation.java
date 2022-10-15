@@ -16,6 +16,7 @@ public class L9_LagacyClasses_enumation
 		vector.add(500);
 		vector.add(900);
 
+		// Like Enumoration is Itearator
 		Enumeration eee1 = vector.elements();
 
 		while (eee1.hasMoreElements())
