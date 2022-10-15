@@ -57,7 +57,8 @@ class Consumer extends Thread
 }
 
 
-public class Communication {
+public class Communication 
+{
 
 	public static void main(String[] args) 
 	{
@@ -76,5 +77,4 @@ public class Communication {
 
 }
 
-
-2:00
+2:35
