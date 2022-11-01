@@ -19,7 +19,7 @@ class Producer extends Thread
 			} 
 			catch (InterruptedException e) 
 			{
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 		}
@@ -77,4 +77,4 @@ public class Communication
 
 }
 
-2:35
+//2:35
